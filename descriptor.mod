@@ -1,0 +1,15 @@
+version="2021.10.1"
+tags={
+	"Alternative History"
+	"Map"
+	"Military"
+	"National Focuses"
+	"Technologies"
+	"Ideologies"
+	"Graphics"
+	"Events"
+	"Gameplay"
+	"Sound"
+}
+name="Unholy alliance: DEV BUILD"
+supported_version="1.11.4"
