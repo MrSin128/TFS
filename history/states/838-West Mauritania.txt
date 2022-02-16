@@ -4,7 +4,7 @@ state={
         state_category = town
 
         history={
-		owner = SPR
+		owner = WAM
 		add_core_of = MRT
 		victory_points = {
 			5034 1 

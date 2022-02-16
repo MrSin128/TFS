@@ -1,32 +1,11 @@
-﻿capital = 558
+﻿capital = 701
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 }
 
-set_convoys = 20
-
-recruit_character = NGA_ncs
-recruit_character = NGA_pot
-recruit_character = NGA_nccr
-recruit_character = NGA_fascist_guy
-recruit_character = NGA_coi
-recruit_character = NGA_ai2
-recruit_character = NGA_democratic_guy
-recruit_character = NGA_ar
-recruit_character = NGA_acgs
-recruit_character = NGA_awt
-recruit_character = NGA_acd2
-recruit_character = NGA_nt
-recruit_character = NGA_aco2
-recruit_character = NGA_acas
-recruit_character = NGA_acr
-recruit_character = NGA_mt
-recruit_character = NGA_stc
-recruit_character = NGA_aa2
-recruit_character = NGA_ncm
-recruit_character = NGA_communist_guy
+set_convoys = 10
 
 1939.1.1 = {
 	
@@ -80,17 +59,18 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
+	democratic = 0
 	fascism = 100
+	communism = 0
+	neutrality = 0
 }
 
 create_country_leader = {
-	
-	name = "James Wilson Robertson"
-	desc = "POLITICS_James_Wilson_Robertson_DESC"
-	picture = James_Wilson_Robertson_Portrait.dds
-	expire = "1965.1.1"
+	name = "Percy Wyn-Harris"
+	desc = "POLITICS_Percy_Wyn_Harris_DESC"
+	picture = Percy_Wyn_Harris_Portrait.dds
 	ideology = fascism_ideology
 	traits = {
-		
+		#
 	}
 }

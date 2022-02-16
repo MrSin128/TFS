@@ -1,6 +1,10 @@
 ﻿capital = 126
 
 puppet = NGA
+puppet = WAM
+puppet = GAM
+puppet = SIE
+puppet = GLD
 
 if = {
 	limit = {

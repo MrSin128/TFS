@@ -831,11 +831,26 @@ ALG = {
 }
 
 NGA = {
-	color = rgb { 137  38  64 }
-	color_ui = rgb { 137  38  64 }
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
 }
-
 MAD = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
+}
+WAM = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+SIE = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+GLD = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+GAM = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
 }
