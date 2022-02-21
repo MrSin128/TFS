@@ -1,0 +1,18 @@
+characters={
+	SUE_Directorial_League={
+		name=SUE_Directorial_League
+		portraits={
+			civilian={
+				large="gfx/leaders/SUE/Portrait_SUE_Directorial_League.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			desc = "POLITICS_DIRECTORIAL_LEAGUE_DESC"
+			traits = {
+			}
+			expire="1972.1.1.1"
+			id=-1
+		}
+	}
+}

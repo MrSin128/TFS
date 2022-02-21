@@ -1,7 +1,5 @@
 ﻿capital = 2
 
-puppet = ETH
-
 if = {
 	limit = {
 		NOT = {
@@ -137,7 +135,6 @@ if = {
 	}
 	add_ideas = MTG_naval_treaty_adherent
 }
-
 
 1939.1.1 = {
 
@@ -299,7 +296,6 @@ if = {
 	}
 	
 	set_stability = 0.8
-	GER = { add_to_faction = ITA }
 }
 
 
@@ -317,17 +313,25 @@ set_popularities = {
 	communism = 2
 }
 
-recruit_character = ITA_palmiro_togliatti
-recruit_character = ITA_victor_emmanuel_iii
-recruit_character = ITA_ferruccio_parri
-recruit_character = ITA_benito_mussolini
+create_faction = italy_empire_faction
+add_to_faction = ITA
+add_to_faction = ENG
+add_to_faction = SER
+add_to_faction = CRO
+add_to_faction = GRE
+add_to_faction = EGY
+add_to_faction = SUE
+add_to_faction = ETH
+add_to_faction = SAF
+add_to_faction = NGA
+
+recruit_character = ITA_italo_balbo
 recruit_character = ITA_pietro_badoglio
 recruit_character = ITA_emilio_de_bono
 recruit_character = ITA_ugo_cavallero
 recruit_character = ITA_giovanni_messe
 recruit_character = ITA_sebastiano_visconti_prasca
 recruit_character = ITA_ubaldo_soddu
-recruit_character = ITA_italo_balbo
 recruit_character = ITA_rodolfo_graziani
 recruit_character = ITA_inigo_campioni
 recruit_character = ITA_alberto_da_zara
@@ -340,28 +344,20 @@ recruit_character = ITA_guiseppe_fioravanzo
 recruit_character = ITA_francesco_pricolo
 recruit_character = ITA_silvio_scaroni
 recruit_character = ITA_vittorio_ambrosio
-recruit_character = ITA_arturo_riccardi
 recruit_character = ITA_mario_roatta
 recruit_character = ITA_marziale_cerutti
 recruit_character = ITA_ettore_muti
 recruit_character = ITA_gaetano_crocco
-recruit_character = ITA_luigi_mascherpa
-recruit_character = ITA_domenico_cavagnari
 recruit_character = ITA_amedeo_mecozzi
 recruit_character = ITA_rino_corso_fougier
-recruit_character = ITA_giacomo_acerbo
-recruit_character = ITA_giovanni_marinelli
-recruit_character = ITA_serafino_mazzolini
 recruit_character = ITA_roberto_farinacci
 recruit_character = ITA_ivanoe_bonomi
 recruit_character = ITA_junio_valerio_borghese
 recruit_character = ITA_luigi_einaudi
 recruit_character = ITA_amadeo_bordiga
 recruit_character = ITA_paolo_thaon_di_revel
-recruit_character = ITA_dino_grandi
 recruit_character = ITA_carlo_scorza
 recruit_character = ITA_gian_galeazzo_ciano
-
 
 if = {
 	limit = {
@@ -410,7 +406,7 @@ if = {
 			tank_nsb_engine_upgrade = 1
 			tank_nsb_armor_upgrade = 1
 		}
-		icon = "GFX_ITA_basic_light_tank_medium"
+		icon = "gfx/interface/technologies/ITA_basic_light_tank.dds"
 	}
 }
 if = {
@@ -919,7 +915,7 @@ if = {
 				tank_nsb_engine_upgrade = 2
 				tank_nsb_armor_upgrade = 4
 			}
-			icon = "GFX_ITA_improved_light_tank_medium"
+			icon = "gfx/interface/technologies/ITA_imp_light_tank.dds"
 		}
 
 		create_equipment_variant = {
@@ -938,7 +934,7 @@ if = {
 				tank_nsb_engine_upgrade = 2
 				tank_nsb_armor_upgrade = 3
 			}
-			icon = "GFX_ITA_basic_medium_tank_medium"
+			icon = "gfx/interface/technologies/ITA_basic_main_tank.dds"
 		}
 	}
 }

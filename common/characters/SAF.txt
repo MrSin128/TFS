@@ -1,0 +1,18 @@
+characters={
+	SAF_Ernest_George_Jansen={
+		name=SAF_Ernest_George_Jansen
+		portraits={
+			civilian={
+				large="gfx/leaders/SAF/Portrait_SAF_Ernest_George_Jansen.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			desc = "POLITICS_ERNEST_GEORGE_JANSEN_DESC"
+			traits = {
+			}
+			expire="1972.1.1.1"
+			id=-1
+		}
+	}
+}

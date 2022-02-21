@@ -1,0 +1,17 @@
+characters={
+	GRE_Georgios_Papadopopoulos={
+		name=GRE_Georgios_Papadopopoulos
+		portraits={
+			civilian={
+				large="gfx/leaders/GRE/Portrait_GRE_Georgios_Papadopopoulos.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			desc = "POLITICS_GEORGIOS_PAPADOPOPOULOS_DESC"
+			traits={ }
+			expire="1980.1.1.1"
+			id=-1
+		}
+	}
+}

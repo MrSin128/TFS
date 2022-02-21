@@ -46,6 +46,8 @@ set_convoys = 5
 	}
 }
 
+recruit_character = COG_Siegfried_Muller
+
 set_politics = {
 	ruling_party = fascism
 	last_election = "1936.1.1"
@@ -54,37 +56,4 @@ set_politics = {
 }
 set_popularities = {
 	fascism = 100
-}
-
-create_country_leader = {
-	
-	name = "François Tolenga"
-	picture = GFX_portrait_Francois_Tolenga
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		compassionate_gentleman
-	}
-}
-create_country_leader = {
-	
-	name = "Lumumba Lomendja"
-	picture = GFX_portrait_Lumumba_Lomendja
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		silent_workhorse
-	}
-}
-
-create_country_leader = {
-	
-	name = "Siegfried Müller"
-	desc = "POLITICS_Siegfried_Muller_DESC"
-	picture = Siegfried_Muller_Portrait.dds
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		
-	}
 }

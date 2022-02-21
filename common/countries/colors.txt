@@ -5,8 +5,8 @@ GER = {
 	color_ui = rgb { 138 155 116 }
 }
 ENG = {
-	color = rgb { 201 56 93 }
-	color_ui = rgb { 255 73 121 }
+	color = rgb { 137  38  64 }
+	color_ui = rgb { 137  38  64 }
 }
 SOV = {
 	color = rgb { 125 13 24 }
@@ -222,8 +222,8 @@ PRU = {
 	color_ui = rgb { 255 246 255 }
 }
 SAF = {
-	color = rgb { 255 126 0 }
-	color_ui = rgb { 255 126 0 }
+	color = rgb { 195 107 160 }
+	color_ui = rgb { 198 169 248 }
 }
 SAU = {
 	color = rgb { 171 190 152 }
@@ -304,8 +304,8 @@ RAJ = {
 }
 
 CRO = {
-	color = rgb { 230  70  180 }
-	color_ui = rgb { 230 255 122 }
+	color = rgb { 170 52 135 }
+	color_ui = rgb { 170 52 13 }
 }
 
 PRC = {
@@ -359,8 +359,8 @@ SYR = {
 }
 
 SER = {
-	color = rgb { 160 110 110 }
-	color_ui = rgb { 160 110 110 }
+	color = rgb { 12 64 118 }
+	color_ui = rgb { 12 64 118 }
 }
 
 ICE = {
@@ -815,21 +815,18 @@ CHU = {
 	color = rgb { 191 128 64 }
 	color_ui = rgb { 134 89 45 }
 }
-NMA = {
-	color = rgb { 21 77 99 }
-	color_ui = rgb { 21 77 99 }
+BNT = {
+	color = rgb { 73 73 73 }
+	color_ui = rgb { 73 73 73 }
 }
-
 SUE = {
 	color = rgb { 173 216 230 }
 	color_ui = rgb { 173 216 230 }
 }
-
 ALG = {
 	color = rgb { 57 113 228 }
 	color_ui = rgb { 74 147 255 }
 }
-
 NGA = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }

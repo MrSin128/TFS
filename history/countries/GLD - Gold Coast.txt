@@ -1,4 +1,4 @@
-capital = 44
+capital = 274
 
 OOB = "GLD_1936"
 
@@ -8,6 +8,7 @@ set_technology = {
 	tech_recon = 1
 }
 
+recruit_character = GLD_Charles_Arden_Clarke
 
 set_politics = {
 	ruling_party = fascism
@@ -18,16 +19,6 @@ set_politics = {
 
 set_popularities = {
 	fascism = 100
-}
-
-create_country_leader = {
-	name = "Charles Arden-Clarke"
-	desc = "POLITICS_Charles_Arden_Clarke_DESC"
-	picture = Charles_Arden_Clarke_Portrait.dds
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
 }
 
 set_convoys = 5

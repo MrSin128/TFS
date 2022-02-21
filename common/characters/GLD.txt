@@ -1,0 +1,18 @@
+characters={
+	GLD_Charles_Arden_Clarke={
+		name=GLD_Charles_Arden_Clarke
+		portraits={
+			civilian={
+				large="gfx/leaders/GLD/Portrait_GLD_Charles_Arden_Clarke.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			desc = "POLITICS_CHARLES_ARDEN_CLARKE_DESC"
+			traits = {
+			}
+			expire="1972.1.1.1"
+			id=-1
+		}
+	}
+}

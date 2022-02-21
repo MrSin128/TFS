@@ -1,0 +1,18 @@
+characters={
+	BNT_Sepp_Janko={
+		name=BNT_Sepp_Janko
+		portraits={
+			civilian={
+				large="gfx/leaders/BNT/Portrait_BNT_Sepp_Janko.dds"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			desc = "POLITICS_SEPP_JANKO_DESC"
+			traits = {
+			}
+			expire="1972.1.1.1"
+			id=-1
+		}
+	}
+}

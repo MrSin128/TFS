@@ -9,6 +9,8 @@ set_technology = {
 
 set_convoys = 5
 
+recruit_character = MAD_Hans_Frank
+
 1939.1.1 = {
 	#generic focuses
 	complete_national_focus = army_effort
@@ -52,26 +54,3 @@ set_politics = {
 set_popularities = {
 	fascism = 100
 }
-
-create_country_leader = {
-	
-	name = "Hans Frank"
-	desc = ""
-	picture = Siegfried_Muller_Portrait.dds
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		
-	}
-}
-
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}

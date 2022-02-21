@@ -1,0 +1,18 @@
+characters={
+	COG_Siegfried_Muller={
+		name=COG_Siegfried_Muller
+		portraits={
+			civilian={
+				large="gfx/leaders/COG/Portrait_COG_Siegfried_Muller.dds"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			desc = "POLITICS_SIEGFRIED_MULLER_DESC"
+			traits = {
+			}
+			expire="1972.1.1.1"
+			id=-1
+		}
+	}
+}

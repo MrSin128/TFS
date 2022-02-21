@@ -1,0 +1,18 @@
+characters={
+	ALG_Jacques_Massu={
+		name=ALG_Jacques_Massu
+		portraits={
+			civilian={
+				large="gfx/leaders/ALG/Portrait_ALG_Jacques_Massu.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = "POLITICS_JACQUES_MASSU_DESC"
+			traits = {
+			}
+			expire="1972.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,18 @@
+characters={
+	MAD_Hans_Frank={
+		name=MAD_Hans_Frank
+		portraits={
+			civilian={
+				large="gfx/leaders/MAD/Portrait_MAD_Hans_Frank.dds"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			desc = "POLITICS_HANS_FRANK_DESC"
+			traits = {
+			}
+			expire="1972.1.1.1"
+			id=-1
+		}
+	}
+}

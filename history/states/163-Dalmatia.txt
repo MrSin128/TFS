@@ -1,0 +1,28 @@
+state=
+{
+	id=163
+	name="STATE_163"
+	manpower = 18000
+	
+	state_category = large_town
+	
+	history={
+		owner = ITA
+		victory_points = {
+			3868 3 
+		}
+		buildings = {
+			infrastructure = 3 #was: 5
+			3943 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ITA
+		add_core_of = CRO
+	} 
+	provinces={	
+		3868 3943 6889
+	}
+
+	local_supplies=0.0 
+}

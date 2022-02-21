@@ -1,0 +1,18 @@
+characters={
+	ETH_Amedeo_Giovanni={
+		name=ETH_Amedeo_Giovanni
+		portraits={
+			civilian={
+				large="gfx/leaders/ETH/Portrait_ETH_Amedeo_Giovanni.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			desc = "POLITICS_AMEDEO_GIOVANNI_DESC"
+			traits = {
+			}
+			expire="1972.1.1.1"
+			id=-1
+		}
+	}
+}

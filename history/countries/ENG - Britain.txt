@@ -1,11 +1,5 @@
 ﻿capital = 126
 
-puppet = NGA
-puppet = WAM
-puppet = GAM
-puppet = SIE
-puppet = GLD
-
 if = {
 	limit = {
 		NOT = {
@@ -163,49 +157,12 @@ add_ideas = {
 
 set_convoys = 800
 
-# DIPLOMACY
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = MAL
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = RAJ
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = CAN
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = SAF
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = AST
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = NZL
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	else = {
-		puppet = MAL
-		puppet = RAJ
-	}
-}
-
+	puppet = SAF
+	puppet = NGA
+    puppet = WAM
+    puppet = GAM
+    puppet = SIE
+    puppet = GLD
 
 if = {
 	limit = { has_dlc = "Together for Victory" }
@@ -233,10 +190,7 @@ if = {
 
 		ENG_george_vi
 	}
-
-	recruit_character = ENG_neville_chamberlain
-	promote_character = ENG_neville_chamberlain
-	retire_character = ENG_stanley_baldwin
+	
 	remove_ideas = george_v #Dead
 
 	complete_national_focus = limited_rearmament_focus
@@ -403,38 +357,22 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1935.11.14"
 	election_frequency = 48
-	elections_allowed = yes ##suspended through duration of war, which is handled via event
+	elections_allowed = no 
 }
 set_popularities = {
-	democratic = 97
-	fascism = 2
-	communism = 1
+	democratic = 21
+	fascism = 73
+	communism = 6
 }
-
-
-create_faction = Allies
-add_to_faction = ENG
-#add_to_faction = FRA
-add_to_faction = CAN
-add_to_faction = AST
-add_to_faction = NZL
-add_to_faction = SAF
-
-give_military_access = RAJ
-add_to_faction = RAJ		# Must be after puppet
-add_to_faction = MAL
 
 #give_guarantee = CZE
 
 # Order matters - here Chamberlain becomes starting leader
 recruit_character = ENG_oswald_mosley
-recruit_character = ENG_stanley_baldwin
 recruit_character = ENG_winston_churchill
-recruit_character = ENG_harry_pollitt
-recruit_character = ENG_alan_brooke
 recruit_character = ENG_bernard_montgomery
 recruit_character = ENG_claude_auchinleck
 recruit_character = ENG_neil_ritchie
@@ -467,7 +405,6 @@ recruit_character = ENG_john_cunningham
 recruit_character = ENG_charles_forbes
 recruit_character = ENG_algernon_willis
 recruit_character = ENG_arthur_power
-recruit_character = ENG_horatio_dundas
 recruit_character = ENG_edmund_ironside
 recruit_character = ENG_david_stirling
 recruit_character = ENG_james_somerville
@@ -703,7 +640,7 @@ if = {
 			tank_nsb_engine_upgrade = 2
 			tank_nsb_armor_upgrade = 1
 		}
-		icon = "GFX_ENG_basic_light_tank_medium"
+		icon = "gfx/interface/technologies/ENG_basic_light_tank.dds"
 		obsolete = yes #used for oob
 	}
 	create_equipment_variant = {
@@ -719,7 +656,7 @@ if = {
 			special_type_slot_1 = tank_radio_1
 			special_type_slot_2 = smoke_launchers
 		}
-		icon = "GFX_ENG_basic_light_tank_medium"
+		icon = "gfx/interface/technologies/ENG_basic_light_tank.dds"
 		upgrades = {
 			tank_nsb_engine_upgrade = 2
 			tank_nsb_armor_upgrade = 2
@@ -742,7 +679,7 @@ if = {
 			tank_nsb_armor_upgrade = 1
 			tank_nsb_engine_upgrade = 2
 		}
-		icon = "GFX_ENG_basic_light_tank_medium"
+		icon = "gfx/interface/technologies/ENG_basic_light_tank.dds"
 	}
 
 	create_equipment_variant = {
@@ -761,7 +698,7 @@ if = {
 			tank_nsb_armor_upgrade = 3
 			tank_nsb_engine_upgrade = 2
 		}
-		icon = "GFX_ENG_light_BAB_camo"
+		icon = "gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_light_BAB_camo.dds"
 		obsolete = yes #export only
 	}
 
@@ -780,7 +717,7 @@ if = {
 			tank_nsb_armor_upgrade = 3
 			tank_nsb_engine_upgrade = 2
 		}
-		icon = "GFX_ENG_light_BAB_camo"
+		icon = "gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_light_BAB_camo.dds"
 		obsolete = yes #export only
 	}
 }
@@ -1432,7 +1369,7 @@ if = {
 				tank_nsb_engine_upgrade = 2
 				tank_nsb_armor_upgrade = 6
 			}
-			icon = "GFX_ENG_improved_light_tank_medium"
+			icon = "gfx/interface/technologies/ENG_imp_light_tank.dds"
 			obsolete = yes
 		}
 
@@ -1453,7 +1390,7 @@ if = {
 				tank_nsb_engine_upgrade = 4
 				tank_nsb_armor_upgrade = 8
 			}
-			icon = "GFX_ENG_improved_light_tank_medium"
+			icon = "gfx/interface/technologies/ENG_imp_light_tank.dds"
 		}
 
 		create_equipment_variant = {
@@ -1475,7 +1412,7 @@ if = {
 				tank_nsb_armor_upgrade = 1
 			}
 			obsolete = yes
-			icon = "GFX_ENG_light_CCA_camo"
+			icon = "gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_light_CCA_camo.dds"
 		}
 
 		create_equipment_variant = {
@@ -1497,7 +1434,7 @@ if = {
 				tank_nsb_engine_upgrade = 7
 				tank_nsb_armor_upgrade = 3
 			}
-			icon = "GFX_ENG_light_CCA_camo"
+			icon = "gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_light_CCA_camo.dds"
 		}
 	}
 }

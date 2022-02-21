@@ -61,15 +61,6 @@ if = {
 	}
 }
 
-if = {
-	limit = { has_dlc = "Together for Victory" }
-	add_ideas = SAF_ossewabrandwag
-	add_ideas = SAF_history_of_segregation
-
-	add_to_tech_sharing_group = commonwealth_research
-	add_opinion_modifier = { target = ENG modifier = SAF_anti_british_sentiment }
-}
-
 1939.1.1 = {
 
 	add_political_power = 1198
@@ -160,40 +151,7 @@ set_popularities = {
 	communism = 5
 }
 
-create_country_leader = {
-	
-	name = "Ernest George Jansen"
-	desc = ""
-	picture = Amedeo_Giovanni_Portrait.dds
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-recruit_character = SAF_j_b_m_hertzog
-recruit_character = SAF_d_f_malan
-recruit_character = SAF_moses_kotane
-recruit_character = SAF_pixley_ka_isaka_seme
-recruit_character = SAF_george_edwin_brink
-recruit_character = SAF_guy_hallifax
-recruit_character = SAF_pierre_oliver_knoll
-recruit_character = SAF_cornelis_van_zuigenbrogge
-recruit_character = SAF_pierre_van_ryneveld
-recruit_character = SAF_s_p_le_roux
-recruit_character = SAF_adolf_malan
-recruit_character = SAF_marinus_van_osterkamp
-recruit_character = SAF_robert_palmer
-recruit_character = SAF_leonard_beyers
-recruit_character = SAF_c_de_weenburg_du_toit
-recruit_character = SAF_james_mitchell_baker
-recruit_character = SAF_jeannot_de_la_tourier
-recruit_character = SAF_j_f_van_rensburg
-recruit_character = SAF_e_g_jansen
-recruit_character = SAF_nicolaas_havenga
-recruit_character = SAF_sir_patrick_duncan
-recruit_character = SAF_abram_fischer
+recruit_character = SAF_Ernest_George_Jansen
 
 1939.1.1 = {
 	set_politics = {
@@ -205,10 +163,7 @@ recruit_character = SAF_abram_fischer
 	set_popularities = {
 		democratic = 100
 	}
+	
+	recruit_character = SAF_Ernest_George_Jansen
 
-	#retire_character = SAF_j_b_m_hertzog
-	# Took office 5 days after this date
-	recruit_character = SAF_jan_smuts
-	promote_character = SAF_jan_smuts
-	retire_character = SAF_j_b_m_hertzog
 }

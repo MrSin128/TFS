@@ -1,0 +1,18 @@
+characters={
+	EGY_Farouk_I={
+		name=EGY_Farouk_I
+		portraits={
+			civilian={
+				large="gfx/leaders/EGY/Portrait_EGY_Farouk_I.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = "POLITICS_FAROUK_I_DESC"
+			traits = {
+			}
+			expire="1972.1.1.1"
+			id=-1
+		}
+	}
+}

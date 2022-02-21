@@ -52,6 +52,8 @@ set_convoys = 10
 	}
 }
 
+recruit_character = GAM_Percy_Wyn_Harris
+
 set_politics = {
 	ruling_party = fascism
 	last_election = "1936.1.1"
@@ -63,14 +65,4 @@ set_popularities = {
 	fascism = 100
 	communism = 0
 	neutrality = 0
-}
-
-create_country_leader = {
-	name = "Percy Wyn-Harris"
-	desc = "POLITICS_Percy_Wyn_Harris_DESC"
-	picture = Percy_Wyn_Harris_Portrait.dds
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
 }

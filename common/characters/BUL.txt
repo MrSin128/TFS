@@ -1,0 +1,25 @@
+characters = {
+
+	#######################
+	### COUNTRY LEADERS ###
+	#######################
+	BUL_Simeon_II = {
+		name = BUL_Simeon_II
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BUL/Portrait_Bulgaria_Simeon_II.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			desc = "POLITICS_SIMEON_II_DESC"
+			traits = {}
+			expire = "1999.1.1"
+			id = -1
+		}
+	}
+
+}
+
+
+

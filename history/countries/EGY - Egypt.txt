@@ -57,6 +57,7 @@ set_convoys = 20
 	}
 }
 
+recruit_character = EGY_Farouk_I
 
 set_politics = {
 	ruling_party = neutrality
@@ -69,44 +70,4 @@ set_popularities = {
 	fascism = 20
 	communism = 5
 	neutrality = 50
-}
-
-create_country_leader = {
-	name = "Muhammad Naguib"
-	desc = ""
-	picture = GFX_portrait_Muhammad_Naguib
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ahmed Husayn"
-	desc = ""
-	picture = GFX_portrait_Ahmed_Husayn
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Farouk I"
-	desc = "POLITICS_Farouk_I_DESC"
-	picture = Farouk_I_Portrait.dds
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Hosni al-Arabi"
-	desc = ""
-	picture = GFX_portrait_Hosni_al_Arabi
-	ideology = leninism
-	traits = {
-		#
-	}
 }

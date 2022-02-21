@@ -1,8 +1,5 @@
 ﻿capital = 64
 
-puppet = COG
-puppet = MAD
-
 if = {
 	limit = {
 		NOT = {
@@ -362,11 +359,15 @@ set_popularities = {
 
 create_faction = Axis
 add_to_faction = GER
-
+add_to_faction = SLO
+add_to_faction = BNT
+add_to_faction = COG
 
 add_ideas = {
-	sour_loser
-	general_staff
+	shadow_of_the_ss
+	thousand_years_reich
+	eternal_total_war
+	slavery_economy
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
