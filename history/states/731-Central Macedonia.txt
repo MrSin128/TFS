@@ -4,7 +4,7 @@ state={
 	name="STATE_731"
 
 	history={
-		owner = BUL
+		owner = GRE
 		victory_points = {
 			11818 5 
 		}
@@ -24,7 +24,7 @@ state={
 	}
 
 	provinces={
-		895 3526 3936 6990 11818 
+		895 3526 3936 11818 
 	}
 	manpower=1155700
 	buildings_max_level_factor=1.000
