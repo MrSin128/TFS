@@ -9625,7 +9625,7 @@
 9624;129;54;84;land;false;forest;1
 9625;129;54;134;land;false;plains;1
 9626;129;54;189;land;false;mountain;7
-9627;129;57;49;land;false;hills;1
+9627;129;57;49;land;true;hills;1
 9628;129;57;154;land;false;hills;1
 9629;129;57;199;land;false;plains;1
 9630;129;60;14;land;false;mountain;1

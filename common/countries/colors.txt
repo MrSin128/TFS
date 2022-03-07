@@ -222,8 +222,8 @@ PRU = {
 	color_ui = rgb { 255 246 255 }
 }
 SAF = {
-	color = rgb { 195 107 160 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 255 126 0 }
+	color_ui = rgb { 255 126 0 }
 }
 SAU = {
 	color = rgb { 171 190 152 }
@@ -369,8 +369,8 @@ ICE = {
 }
 
 UKR = {
-	color = rgb { 0  80  230 }
-	color_ui = rgb { 0  80  230 }	
+	color = rgb { 88  94  101 }
+	color_ui = rgb { 88  94  101 }	
 }
 
 AZR = {
@@ -818,6 +818,10 @@ CHU = {
 BNT = {
 	color = rgb { 73 73 73 }
 	color_ui = rgb { 73 73 73 }
+}
+OST = {
+	color = rgb { 102 100 86 }
+	color_ui = rgb { 102 100 86 }
 }
 SUE = {
 	color = rgb { 173 216 230 }

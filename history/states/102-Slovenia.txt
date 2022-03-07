@@ -6,14 +6,15 @@ state= {
 	state_category = large_town
 	
 	history = {
-		owner = CRO
+		owner = GER
 		buildings = {
 			infrastructure = 3
 		}
+		add_core_of = GER
 		add_core_of = CRO
 	}
 	provinces={
-		596 665 3631 3654 6650 6672 9596 9627
+		596 665 3631 3654 9596 
 	}
 	local_supplies=5.0 
 }

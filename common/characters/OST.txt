@@ -1,0 +1,18 @@
+characters={
+	OST_Hinrich_Lohse={
+		name=OST_Hinrich_Lohse
+		portraits={
+			civilian={
+				large="gfx/leaders/OST/Portrait_OST_Hinrich_Lohse.dds"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			desc = "POLITICS_HINRICH_LOHSE_DESC"
+			traits = {
+			}
+			expire="1972.1.1.1"
+			id=-1
+		}
+	}
+}

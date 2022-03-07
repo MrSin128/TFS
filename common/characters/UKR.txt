@@ -1,0 +1,18 @@
+characters={
+	UKR_Erich_Koch={
+		name=UKR_Erich_Koch
+		portraits={
+			civilian={
+				large="gfx/leaders/UKR/Portrait_UKR_Erich_Koch.dds"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			desc = "POLITICS_ERICH_KOCH_DESC"
+			traits = {
+			}
+			expire="1972.1.1.1"
+			id=-1
+		}
+	}
+}

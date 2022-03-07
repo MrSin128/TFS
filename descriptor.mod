@@ -1,4 +1,4 @@
-version="2021.10.1"
+version="1.11.*"
 tags={
 	"Alternative History"
 	"Map"
@@ -12,4 +12,4 @@ tags={
 	"Sound"
 }
 name="Unholy alliance: DEV BUILD"
-supported_version="1.11.4"
+supported_version="1.11.*"

@@ -317,13 +317,12 @@ create_faction = italy_empire_faction
 add_to_faction = ITA
 add_to_faction = ENG
 add_to_faction = SER
-add_to_faction = CRO
 add_to_faction = GRE
-add_to_faction = EGY
 add_to_faction = SUE
-add_to_faction = ETH
-add_to_faction = SAF
-add_to_faction = NGA
+
+puppet = EGY
+puppet = ETH
+puppet = CRO
 
 recruit_character = ITA_italo_balbo
 recruit_character = ITA_pietro_badoglio

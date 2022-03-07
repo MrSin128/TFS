@@ -141,9 +141,9 @@ set_war_support = 0.3
 
 #Trade
 create_import = {
-		resource = tungsten
-		factories = 1
-		exporter = SWE
+	resource = tungsten
+	factories = 1
+	exporter = SWE
 }
 
 1939.1.1 = {
@@ -184,9 +184,9 @@ create_import = {
 
 #Trade
 	create_import = {
-			resource = oil
-			factories = 2
-			exporter = SOV
+		resource = oil
+		factories = 2
+		exporter = SOV
 	}
 
 	#MR pact effect, Also has a part scripted in soviet history file
@@ -360,8 +360,11 @@ set_popularities = {
 create_faction = Axis
 add_to_faction = GER
 add_to_faction = SLO
-add_to_faction = BNT
-add_to_faction = COG
+
+puppet = COG
+puppet = MAD
+puppet = UKR
+puppet = OST
 
 add_ideas = {
 	shadow_of_the_ss
@@ -372,9 +375,6 @@ add_ideas = {
 	limited_conscription
 	partial_economic_mobilisation
 }
-add_ideas = GER_mefo_bills_1
-
-activate_mission = GER_mefo_bills_mission
 
 recruit_character = GER_wilhelm_pieck
 recruit_character = GER_konrad_adenauer
