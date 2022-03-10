@@ -1,0 +1,374 @@
+
+ideologies = {
+
+	national_socialism = {
+		types = {
+		
+			national_socialism = {
+			} 
+			
+			german_puppet_gov = {
+			} 
+		
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_NATSOC_1"
+		}
+		color = { 66 53 140 }
+		rules = {
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = yes
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = yes
+	}
+	
+	fascism = {
+		types = {
+		
+			traditional_fascism = {
+			} 
+			
+			clerical_fascism = {
+			} 	
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_FASCISM_1"
+		}
+		color = { 68 41 6 }
+		rules = {
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = yes
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = yes
+	}
+	
+	ultra_nationalism = {
+		types = {
+			baathism_rw = {
+			}
+			
+            palingenetic_ultranat ={
+            }
+
+			right_wing_pop = {
+			}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_ULTNAT_1"
+		}
+		color = { 48 48 48 }
+		rules = {
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = yes
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = yes
+	}
+
+############################ LEFT WING ################################
+
+	authoritarian_socialism = {
+		types = {
+		
+			militarist_socialism = {
+			} 	
+
+			baathism_lw = {
+			} 	
+			
+			maoism = {
+			} 	
+			
+			marxism_leninism = {
+			} 	
+			
+			stalinism = {
+			} 	
+			
+			zhukovism = {
+			} 	
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTH_SOC_1"
+		}
+		color = { 188 0 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = yes
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = yes
+	}
+
+	libertarian_socialism = {
+		types = {
+			classical_marxism = {
+			}
+			
+			syndicalism = {
+			}
+			
+			democratic_socialism = {
+			}
+			
+			social_democracy = {
+			}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_LIB_SOC_1"
+		}
+		color = { 255 109 112 }
+		rules = {
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = yes
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+		ai_neutral = yes
+		can_be_boosted = yes
+	}
+	
+	anarchism = {
+		types = {
+			anarcho-communism = {
+			}
+			
+			anarcho-capitalism = {
+			}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_ANARCHIST_1"
+		}
+		color = { 35 0 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+
+############################################### WESTERN SHIT ###########################################
+
+	liberal_democracy = {
+		types = {
+         social_liberalism = {
+		 }
+         market_liberalism = {
+		 }
+         conservative_liberalism = {
+		 }
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_LIB_DEM_1"
+		}
+		color = { 222 229 128 }
+		rules = {
+			can_force_government = no
+			can_puppet = yes
+			can_join_factions = yes
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		ai_neutral = yes
+		can_be_boosted = yes
+	}
+	
+	conservatism = {
+		types = {
+        national_conservatism = {
+		}
+		
+        social_conservatism = {
+		}
+		
+        libertarianism = {
+		}
+		
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_CON_DEM_1"
+		}
+		color = { 103 127 188 }
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+			can_create_collaboration_government = yes
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			guarantee_tension = 0.75
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		ai_neutral = yes
+		can_be_boosted = yes
+	}
+	
+############################################### DICTATORSHIPS #######################################
+
+	authoritarian_dem = {
+		types = {
+        controlled_democracy = {
+		}
+		
+        dominant_party_system = {
+		}
+		
+        oligarchy = {
+		}
+		
+		military_junta = {	
+		}
+		
+		colonial_gov = {	
+		}
+		
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTH_DEM_1"
+		}
+		color = { 137 137 137 }
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+			can_create_collaboration_government = yes
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			guarantee_tension = 0.75
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		ai_neutral = yes
+		can_be_boosted = yes
+	}
+	
+	despotism = {
+		types = {
+        absolute_monarchy = {
+		}
+		
+        autocracy = {
+		}
+		
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_DESPOT_1"
+		}
+		color = { 63 127 127 }
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+			can_create_collaboration_government = yes
+		}
+		can_host_government_in_exile = yes
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			guarantee_tension = 0.75
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		ai_neutral = yes
+		can_be_boosted = yes
+	}
+}
+

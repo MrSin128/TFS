@@ -1,0 +1,53 @@
+﻿l_english:
+################### FAR RIGHT #########################
+ national_socialism:0 "National Socialism"
+ german_puppet_gov:0 "German Puppet Government"
+#######################################################
+ fascism:0 "Fascism"
+ traditional_fascism:0 "Traditional Fascism"
+ clerical_fascism:0 "Clerical Fascism"
+#######################################################
+ ultra_nationalism:0 "Ultra-Nationalism"
+ baathism_rw:0 "Right Wing Baathism"
+ palingenetic_ultranat:0 "Palingenetic Ultra-Nationalism"
+ right_wing_pop:0 "Right Wing Populism"
+################### FAR LEFT ##########################
+ authoritarian_socialism:0 "Authoritarian Socialism"
+ militarist_socialism:0 "Militarist Socialism"
+ baathism_lw:0 "Left Wing Baathism"
+ maoism:0 "Maoism"
+ marxism_leninism:0 "Marxism-leninism"
+ stalinism:0 "Stalinism"
+ zhukovism:0 "Zhukovist-Leninism"
+#######################################################
+ libertarian_socialism:0 "Libertarian Socialism"
+ classical_marxism:0 "Classical Marxism"
+ syndicalism:0 "Syndicalism"
+ democratic_socialism:0 "Democratic Socialism"
+ social_democracy:0 "Social-Democracy"
+#######################################################
+ anarchism:0 "Anarchism"
+ anarcho-communism:0 "Anarcho-Communism"
+ anarcho-capitalism:0 "Anarcho-capitalism"
+ zhukovism:0 "Zhukovist-Leninism"
+################# WESTERN SHIT ########################
+ liberal_democracy:0 "Liberal Democracy"
+ social_liberalism:0 "Social Liberalism"
+ market_liberalism:0 "Market Liberalism"
+ conservative_liberalism:0 "Conservative Liberalism"
+#######################################################
+ conservatism:0 "Conservatism"
+ national_conservatism:0 "National Conservatism"
+ social_conservatism:0 "Social Conservatism"
+ libertarianism:0 "Libertarianism"
+################# DICTATORSHIPS ######################
+ authoritarian_dem:0 "Authoritarian Democracy"
+ controlled_democracy:0 "Controlled Democracy"
+ dominant_party_system:0 "Dominant Party System"
+ oligarchy:0 "Oligarchy"
+ military_junta:0 "Military Junta"
+ colonial_gov:0 "Colonial Government"
+#######################################################
+ despotism:0 "Despotism"
+ absolute_monarchy:0 "Absolute Monarchy"
+ autocracy:0 "Autocracy"
