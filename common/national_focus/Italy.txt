@@ -1,0 +1,391 @@
+﻿focus_tree = {
+	id = italy_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+
+		
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 2000 }
+
+	focus = {
+		id = Matters_of_The_Colonies
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		x = 15
+		y = 0
+		relative_position_id = 
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Matters_of_The_Army
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		x = 15
+		y = 0
+		relative_position_id = 
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+	
+	focus = {
+		id = About_The_German
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		x = 15
+		y = 0
+		relative_position_id = 
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	focus = {
+		id = State_of_Fascism
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		x = 15
+		y = 0
+		relative_position_id = 
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = Contact_The_Vatican
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		x = 15
+		y = 0
+		relative_position_id = 
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+
+
+	focus = {
+		id = Strengthen_The_Ties_With_Our_Allies
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		x = 15
+		y = 0
+		relative_position_id = 
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+
+
+	focus = {
+		id = Our-Foothold_in_Balkans
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		x = 15
+		y = 0
+		relative_position_id = 
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = Meet_With_The_High_Commands
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		x = 15
+		y = 0
+		relative_position_id = 
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+
+
+	focus = {
+		id = Speech_of_The_Duce
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		x = 15
+		y = 0
+		relative_position_id = 
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+
+
+	focus = {
+		id = Meet_With_The_Royals
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		x = 15
+		y = 0
+		relative_position_id = 
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+}		
