@@ -21,7 +21,7 @@
 		icon = GFX_The_matters_of_colonies
 		prerequisite = { focus = }
 		mutually_exclusive = { focus =  }
-		x = 15
+		x = 10
 		y = 0
 		relative_position_id = 
 
@@ -58,8 +58,8 @@
 		icon = GFX_Matter_of_army
 		prerequisite = { focus = Matters_of_The_Colonies }
 		mutually_exclusive = { focus =  }
-		x = 15
-		y = 0
+		x = 0
+		y = 1
 		relative_position_id = Matters_of_The_Colonies
 
 		cost = 5
@@ -95,8 +95,8 @@
 		icon = GFX_about_the_german
 		prerequisite = { focus = Matters_of_The_Army }
 		mutually_exclusive = { focus =  }
-		x = 15
-		y = 0
+		x = 0
+		y = 1
 		relative_position_id = Matters_of_The_Army
 
 		cost = 5
@@ -131,8 +131,8 @@
 		icon = GFX_state_of_fascist
 		prerequisite = { focus = About_The_German }
 		mutually_exclusive = { focus =  }
-		x = 15
-		y = 0
+		x = 0
+		y = 1
 		relative_position_id = About_The_German
 
 		cost = 5
@@ -168,8 +168,8 @@
 		icon = GFX_Meet_with_Vatican
 		prerequisite = { focus = State_of_Fascism }
 		mutually_exclusive = { focus =  }
-		x = 15
-		y = 0
+		x = 0
+		y = 1
 		relative_position_id = State_of_Fascism
 
 		cost = 5
@@ -206,8 +206,8 @@
 		icon = GFX_allies
 		prerequisite = { focus = Contact_The_Vatican }
 		mutually_exclusive = { focus = }
-		x = 15
-		y = 0
+		x = 0
+		y = 1
 		relative_position_id = Contact_The_Vatican
 
 		cost = 5
@@ -244,8 +244,8 @@
 		icon = GFX_Foothold_in_Balkans
 		prerequisite = { focus = Strengthen_The_Ties_With_Our_Allies }
 		mutually_exclusive = { focus =  }
-		x = 15
-		y = 0
+		x = 0
+		y = 1
 		relative_position_id = Strengthen_The_Ties_With_Our_Allies
 
 		cost = 5
@@ -281,8 +281,8 @@
 		icon = GFX_high_comands
 		prerequisite = { focus = Our_Foothold_in_Balkans }
 		mutually_exclusive = { focus =  }
-		x = 15
-		y = 0
+		x = 0
+		y = 1
 		relative_position_id = Our_Foothold_in_Balkans
 
 		cost = 5
@@ -319,8 +319,8 @@
 		icon = GFX_duce
 		prerequisite = { focus = Meet_With_The_High_Commands }
 		mutually_exclusive = { focus =  }
-		x = 15
-		y = 0
+		x = 0
+		y = 1
 		relative_position_id = Meet_With_The_High_Commands
 
 		cost = 5
@@ -357,8 +357,8 @@
 		icon = GFX_royal
 		prerequisite = { focus = Speech_of_The_Duce }
 		mutually_exclusive = { focus =  }
-		x = 15
-		y = 0
+		x = 0
+		y = 1
 		relative_position_id = Speech_of_The_Duce
 
 		cost = 5
