@@ -14,18 +14,18 @@
 	
 	default = no
 	
-	continuous_focus_position = { x = 50 y = 2000 }
+	continuous_focus_position = { x = 50 y = 3000 }
 
 	focus = {
 		id = Matters_of_The_Colonies
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		icon = GFX_The_matters_of_colonies
 		prerequisite = { focus = }
 		mutually_exclusive = { focus =  }
 		x = 15
 		y = 0
 		relative_position_id = 
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -55,14 +55,14 @@
 	
 	focus = {
 		id = Matters_of_The_Army
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		prerequisite = { focus = }
+		icon = GFX_Matter_of_army
+		prerequisite = { focus = Matters_of_The_Colonies }
 		mutually_exclusive = { focus =  }
 		x = 15
 		y = 0
-		relative_position_id = 
+		relative_position_id = Matters_of_The_Colonies
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -92,14 +92,14 @@
 	
 	focus = {
 		id = About_The_German
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		prerequisite = { focus = }
+		icon = GFX_about_the_german
+		prerequisite = { focus = Matters_of_The_Army }
 		mutually_exclusive = { focus =  }
 		x = 15
 		y = 0
-		relative_position_id = 
+		relative_position_id = Matters_of_The_Army
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -128,14 +128,14 @@
 	
 	focus = {
 		id = State_of_Fascism
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		prerequisite = { focus = }
+		icon = GFX_state_of_fascist
+		prerequisite = { focus = About_The_German }
 		mutually_exclusive = { focus =  }
 		x = 15
 		y = 0
-		relative_position_id = 
+		relative_position_id = About_The_German
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -165,14 +165,14 @@
 
 	focus = {
 		id = Contact_The_Vatican
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		prerequisite = { focus = }
+		icon = GFX_Meet_with_Vatican
+		prerequisite = { focus = State_of_Fascism }
 		mutually_exclusive = { focus =  }
 		x = 15
 		y = 0
-		relative_position_id = 
+		relative_position_id = State_of_Fascism
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -203,14 +203,14 @@
 
 	focus = {
 		id = Strengthen_The_Ties_With_Our_Allies
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		prerequisite = { focus = }
-		mutually_exclusive = { focus =  }
+		icon = GFX_allies
+		prerequisite = { focus = Contact_The_Vatican }
+		mutually_exclusive = { focus = }
 		x = 15
 		y = 0
-		relative_position_id = 
+		relative_position_id = Contact_The_Vatican
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -240,15 +240,15 @@
 
 
 	focus = {
-		id = Our-Foothold_in_Balkans
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		prerequisite = { focus = }
+		id = Our_Foothold_in_Balkans
+		icon = GFX_Foothold_in_Balkans
+		prerequisite = { focus = Strengthen_The_Ties_With_Our_Allies }
 		mutually_exclusive = { focus =  }
 		x = 15
 		y = 0
-		relative_position_id = 
+		relative_position_id = Strengthen_The_Ties_With_Our_Allies
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -278,14 +278,14 @@
 
 	focus = {
 		id = Meet_With_The_High_Commands
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		prerequisite = { focus = }
+		icon = GFX_high_comands
+		prerequisite = { focus = Our_Foothold_in_Balkans }
 		mutually_exclusive = { focus =  }
 		x = 15
 		y = 0
-		relative_position_id = 
+		relative_position_id = Our_Foothold_in_Balkans
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -316,14 +316,14 @@
 
 	focus = {
 		id = Speech_of_The_Duce
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		prerequisite = { focus = }
+		icon = GFX_duce
+		prerequisite = { focus = Meet_With_The_High_Commands }
 		mutually_exclusive = { focus =  }
 		x = 15
 		y = 0
-		relative_position_id = 
+		relative_position_id = Meet_With_The_High_Commands
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -354,14 +354,14 @@
 
 	focus = {
 		id = Meet_With_The_Royals
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		prerequisite = { focus = }
+		icon = GFX_royal
+		prerequisite = { focus = Speech_of_The_Duce }
 		mutually_exclusive = { focus =  }
 		x = 15
 		y = 0
-		relative_position_id = 
+		relative_position_id = Speech_of_The_Duce
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
