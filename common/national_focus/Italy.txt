@@ -1,8 +1,8 @@
 ﻿focus_tree = {
-	id = italian_focus
+	id = italy_focus
 	
 	country = {
-		factor = 0
+		factor = 1
 		
 		modifier = {
 			add = 10
@@ -14,18 +14,57 @@
 	
 	default = no
 	
-	continuous_focus_position = { x = 50 y = 1100 }
+	continuous_focus_position = { x = 50 y = 2000 }
+
+	
+	focus = {
+		id = The_Glorious_Nation
+		icon = GFX_glorious_nation
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 12
+		y = 1
+		relative_position_id = 
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
 
 	focus = {
 		id = Matters_of_The_Colonies
-		icon = GFX_The_matters_of_colonies
-		prerequisite = { focus = }
+		icon = GFX_matter_of_colonies
+		prerequisite = { focus = The_Glorious_Nation }
 		mutually_exclusive = { focus =  }
-		x = 10
-		y = 0
-		relative_position_id = 
-
 		cost = 5
+		x = 0
+		y = 1
+		relative_position_id = The_Glorious_Nation
+
+		
 
 		ai_will_do = {
 			factor = 1
@@ -56,11 +95,11 @@
 	focus = {
 		id = Matters_of_The_Army
 		icon = GFX_Matter_of_army
-		prerequisite = { focus = Matters_of_The_Colonies }
+		prerequisite = { focus = The_Glorious_Nation }
 		mutually_exclusive = { focus =  }
-		x = 0
-		y = 1
-		relative_position_id = Matters_of_The_Colonies
+		x = 1
+		y = 2
+		relative_position_id = The_Glorious_Nation
 
 		cost = 5
 
@@ -93,11 +132,11 @@
 	focus = {
 		id = About_The_German
 		icon = GFX_about_the_german
-		prerequisite = { focus = Matters_of_The_Army }
-		mutually_exclusive = { focus =  }
-		x = 0
-		y = 1
-		relative_position_id = Matters_of_The_Army
+		prerequisite = { focus = The_Glorious_Nation }
+		mutually_exclusive = { focus = }
+		x = -1
+		y = 2
+		relative_position_id = The_Glorious_Nation
 
 		cost = 5
 
@@ -129,11 +168,11 @@
 	focus = {
 		id = State_of_Fascism
 		icon = GFX_state_of_fascist
-		prerequisite = { focus = About_The_German }
+		prerequisite = { focus = The_Glorious_Nation }
 		mutually_exclusive = { focus =  }
-		x = 0
+		x = 2
 		y = 1
-		relative_position_id = About_The_German
+		relative_position_id = The_Glorious_Nation
 
 		cost = 5
 
@@ -166,11 +205,11 @@
 	focus = {
 		id = Contact_The_Vatican
 		icon = GFX_Meet_with_Vatican
-		prerequisite = { focus = State_of_Fascism }
+		prerequisite = { focus = The_Glorious_Nation }
 		mutually_exclusive = { focus =  }
-		x = 0
+		x = -2
 		y = 1
-		relative_position_id = State_of_Fascism
+		relative_position_id = The_Glorious_Nation
 
 		cost = 5
 
@@ -204,11 +243,11 @@
 	focus = {
 		id = Strengthen_The_Ties_With_Our_Allies
 		icon = GFX_allies
-		prerequisite = { focus = Contact_The_Vatican }
-		mutually_exclusive = { focus = }
-		x = 0
+		prerequisite = { focus = The_Glorious_Nation }
+		mutually_exclusive = { focus =  }
+		x = 4
 		y = 1
-		relative_position_id = Contact_The_Vatican
+		relative_position_id = The_Glorious_Nation
 
 		cost = 5
 
@@ -240,13 +279,13 @@
 
 
 	focus = {
-		id = Our_Foothold_in_Balkans
+		id = Our-Foothold_in_Balkans
 		icon = GFX_Foothold_in_Balkans
-		prerequisite = { focus = Strengthen_The_Ties_With_Our_Allies }
+		prerequisite = { focus = The_Glorious_Nation }
 		mutually_exclusive = { focus =  }
-		x = 0
+		x = -4
 		y = 1
-		relative_position_id = Strengthen_The_Ties_With_Our_Allies
+		relative_position_id = The_Glorious_Nation
 
 		cost = 5
 
@@ -279,13 +318,13 @@
 	focus = {
 		id = Meet_With_The_High_Commands
 		icon = GFX_high_comands
-		prerequisite = { focus = Our_Foothold_in_Balkans }
+		prerequisite = { focus = The_Glorious_Nation }
 		mutually_exclusive = { focus =  }
-		x = 0
+		x = 6
 		y = 1
-		relative_position_id = Our_Foothold_in_Balkans
+		relative_position_id = The_Glorious_Nation
 
-		cost = 5
+		cost = 6
 
 		ai_will_do = {
 			factor = 1
@@ -317,11 +356,11 @@
 	focus = {
 		id = Speech_of_The_Duce
 		icon = GFX_duce
-		prerequisite = { focus = Meet_With_The_High_Commands }
+		prerequisite = { focus = The_Glorious_Nation }
 		mutually_exclusive = { focus =  }
-		x = 0
+		x = -6
 		y = 1
-		relative_position_id = Meet_With_The_High_Commands
+		relative_position_id = The_Glorious_Nation
 
 		cost = 5
 
@@ -355,11 +394,11 @@
 	focus = {
 		id = Meet_With_The_Royals
 		icon = GFX_royal
-		prerequisite = { focus = Speech_of_The_Duce }
+		prerequisite = { focus = The_Glorious_Nation }
 		mutually_exclusive = { focus =  }
-		x = 0
+		x = 8
 		y = 1
-		relative_position_id = Speech_of_The_Duce
+		relative_position_id = The_Glorious_Nation
 
 		cost = 5
 
