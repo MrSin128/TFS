@@ -1,5 +1,5 @@
 ﻿focus_tree = {
-	id = italy_focus
+	id = italian_focus
 	
 	country = {
 		factor = 0
@@ -14,7 +14,7 @@
 	
 	default = no
 	
-	continuous_focus_position = { x = 50 y = 3000 }
+	continuous_focus_position = { x = 50 y = 1100 }
 
 	focus = {
 		id = Matters_of_The_Colonies
