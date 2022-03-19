@@ -224,11 +224,11 @@ ideologies = {
 
 	liberal_democracy = {
 		types = {
-         social_liberalism = {
+         		social_liberalism = {
 		 }
-         market_liberalism = {
+         		market_liberalism = {
 		 }
-         conservative_liberalism = {
+       		  	conservative_liberalism = {
 		 }
 		}
 		dynamic_faction_names = {
@@ -257,13 +257,13 @@ ideologies = {
 	
 	conservatism = {
 		types = {
-        national_conservatism = {
+        		national_conservatism = {
 		}
 		
-        social_conservatism = {
+       	 		social_conservatism = {
 		}
 		
-        libertarianism = {
+        		libertarianism = {
 		}
 		
 		}
@@ -296,19 +296,19 @@ ideologies = {
 
 	authoritarian_dem = {
 		types = {
-        controlled_democracy = {
+        		controlled_democracy = {
 		}
 		
-        dominant_party_system = {
+        		dominant_party_system = {
 		}
 		
-        oligarchy = {
+        		oligarchy = {
 		}
 		
-		military_junta = {	
+			military_junta = {	
 		}
 		
-		colonial_gov = {	
+			colonial_gov = {	
 		}
 		
 		}
@@ -339,10 +339,10 @@ ideologies = {
 	
 	despotism = {
 		types = {
-        absolute_monarchy = {
+        		absolute_monarchy = {
 		}
 		
-        autocracy = {
+        		autocracy = {
 		}
 		
 		}
