@@ -390,13 +390,13 @@ if = {
 }
 
 set_politics = {
-	ruling_party = controlled_democracy
+	ruling_party = authoritarian_dem
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	controlled_democracy = 100
+	authoritarian_dem = 100
 }
 
 recruit_character = JAP_tetsu_katayama
