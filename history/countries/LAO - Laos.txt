@@ -97,7 +97,12 @@ if = {
 		basic_torpedo = 1
 	}
 }
-
+set_politics = {
+	ruling_party = authoritarian_dem
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
 set_popularities = {
 	democratic = 25
 	communism = 35
