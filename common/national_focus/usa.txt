@@ -1,0 +1,1567 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_USA_CONGRESS}
+
+focus_tree = {
+	id = usa_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = USA
+		}
+		
+		modifier = {
+			add = 10
+			original_tag = USA
+		}
+	}
+	continuous_focus_position = { x = 50 y = 1600 }
+	default = no
+#	focus = {
+#		id = USA_
+#		#icon = GFX_
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = -3
+#		y = 0
+#		relative_position_id = 
+#
+#		cost = 10
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+	
+
+
+
+focus = {
+		id = The_Stassen_Presidency
+		#icon = GFX_
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		x = 8
+		y = 0
+		cost = 10
+		relative_position_id = 
+
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+focus = {
+		id = Meet_With_MLK
+		#icon = GFX_
+		prerequisite = { focus = The_Stassen_Presidency }
+		mutually_exclusive = { focus =  }
+		x = -3
+		y = 1
+		relative_position_id = The_Stassen_Presidency
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}	
+	
+	
+focus = {
+		id = Help_The_NAACP
+		#icon = GFX_
+		prerequisite = { focus = Meet_With_MLK }
+		mutually_exclusive = { focus =  }
+		x = -0
+		y = 1
+		relative_position_id = Meet_With_MLK
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	
+focus = {
+		id = Convince_The_People_of_Our_Cause
+		#icon = GFX_
+		prerequisite = { focus = Help_The_NAACP }
+		mutually_exclusive = { focus =  }
+		x = -0
+		y = 1
+		relative_position_id = Help_The_NAACP
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+focus = {
+		id = Push_It_Onto_The_Senate
+		#icon = GFX_
+		prerequisite = { focus = Convince_The_People_of_Our_Cause }
+		mutually_exclusive = { focus =  }
+		x = -0
+		y = 1
+		relative_position_id = Convince_The_People_of_Our_Cause
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+focus = {
+		id = Start_Writing_Up_The_Civil_Rights_Act
+		#icon = GFX_
+		prerequisite = { focus = Push_It_Onto_The_Senate }
+		mutually_exclusive = { focus =  }
+		x = -0
+		y = 1
+		relative_position_id = Push_It_Onto_The_Senate
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	
+	
+focus = {
+		id = Unite_The_Party_for_This
+		#icon = GFX_
+		prerequisite = { focus = Start_Writing_Up_The_Civil_Rights_Act }
+		mutually_exclusive = { focus =  }
+		x = -0
+		y = 1
+		relative_position_id = Start_Writing_Up_The_Civil_Rights_Act
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	
+	focus = {
+		id = The_Economic_Battle
+		#icon = GFX_
+		prerequisite = { focus = The_Stassen_Presidency }
+		mutually_exclusive = { focus =  }
+		x = 3
+		y = 1
+		relative_position_id = The_Stassen_Presidency
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	
+focus = {
+		id = Regain_The_Public_Trust
+		#icon = GFX_
+		prerequisite = { focus = The_Economic_Battle }
+		mutually_exclusive = { focus =  }
+		x = -2
+		y = 1
+		relative_position_id = The_Economic_Battle
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+focus = {
+		id = Reconcile_With_The_Conservatives
+		#icon = GFX_
+		prerequisite = { focus = Regain_The_Public_Trust }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = Regain_The_Public_Trust
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	focus = {
+		id = Enact_Tax_Cuts
+		#icon = GFX_
+		prerequisite = { focus = Reconcile_With_The_Conservatives }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = Reconcile_With_The_Conservatives
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	
+	focus = {
+		id = Draw_Up_Plans_For_a_Healthcare_Program
+		#icon = GFX_
+		prerequisite = { focus = The_Economic_Battle }
+		mutually_exclusive = { focus =  }
+		x = 2
+		y = 1
+		relative_position_id = The_Economic_Battle
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	focus = {
+		id = Increase_Public_Education_Funding
+		#icon = GFX_
+		prerequisite = { focus = Draw_Up_Plans_For_a_Healthcare_Program }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = Draw_Up_Plans_For_a_Healthcare_Program
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	focus = {
+		id = Stassen's_Crazy_Plan
+		#icon = GFX_
+		prerequisite = { focus = Increase_Public_Education_Funding }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = Increase_Public_Education_Funding
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	
+	focus = {
+		id = The_Healthcare_And_Education_Bill
+		#icon = GFX_
+		prerequisite = { focus = Stassen's_Crazy_Plan }
+		prerequisite = {focus = Enact_Tax_Cuts }
+		mutually_exclusive = { focus =  }
+		x = 2
+		y = 1
+		relative_position_id = Increase_Public_Education_Funding
+		relative_position_id = Enact_Tax_Cuts
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	
+	focus = {
+		id = Cross_The_Aisle
+		#icon = GFX_
+		prerequisite = { focus = The_Healthcare_And_Education_Bill }
+		mutually_exclusive = { focus = We_Are_Fine_As_Is }
+		x = -2
+		y = 1
+		relative_position_id = The_Healthcare_And_Education_Bill
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	focus = {
+		id = We_Are_Fine_As_Is
+		#icon = GFX_
+		prerequisite = { focus = The_Healthcare_And_Education_Bill }
+		mutually_exclusive = { focus = Cross_The_Aisle }
+		x = 2
+		y = 1
+		relative_position_id = The_Healthcare_And_Education_Bill
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	
+	
+	focus = {
+		id = A_Time_For_Restraint
+		#icon = GFX_
+		prerequisite = { focus = We_Are_Fine_As_Is focus = Cross_The_Aisle }
+		prerequisite = { focus = Unite_The_Party_for_This }
+		mutually_exclusive = { focus =  }
+		x = -2
+		y = 1
+		relative_position_id = We_Are_Fine_As_Is
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	
+	focus = {
+		id = Lodge's_Transoceanic_Plan
+		#icon = GFX_
+		prerequisite = { focus = The_Stassen_Presidency }
+		mutually_exclusive = { focus =  }
+		x = 13
+		y = 1
+		relative_position_id = The_Stassen_Presidency
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	
+	
+	focus = {
+		id = Get_Back_to_South_America
+		#icon = GFX_
+		prerequisite = { focus = Lodge's_Transoceanic_Plan }
+		mutually_exclusive = { focus =  }
+		x = -4
+		y = 1
+		relative_position_id = Lodge's_Transoceanic_Plan
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	
+	focus = {
+		id = Break_a_Deal_With_JK
+		#icon = GFX_
+		prerequisite = { focus = Get_Back_to_South_America }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = Get_Back_to_South_America
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Fund_Military_Conspirators_In_Venezuela
+		#icon = GFX_
+		prerequisite = { focus = Break_a_Deal_With_JK }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = Break_a_Deal_With_JK
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+
+	focus = {
+		id = Push_Argentina_to_Our_Side
+		#icon = GFX_
+		prerequisite = { focus = Fund_Military_Conspirators_In_Venezuela }
+		mutually_exclusive = { focus =  }
+		x = -2
+		y = 1
+		relative_position_id = Fund_Military_Conspirators_In_Venezuela
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	focus = {
+		id = A_Visit_to_Santiago
+		#icon = GFX_
+		prerequisite = { focus = Fund_Military_Conspirators_In_Venezuela }
+		mutually_exclusive = { focus =  }
+		x = 2
+		y = 1
+		relative_position_id = Fund_Military_Conspirators_In_Venezuela
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	focus = {
+		id = The_American_Backyard_Secured
+		#icon = GFX_
+		prerequisite = { focus = A_Visit_to_Santiago }
+		prerequisite = { focus = Push_Argentina_to_Our_Side }
+		mutually_exclusive = { focus =  }
+		x = -2
+		y = 1
+		relative_position_id = A_Visit_to_Santiago
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Contact_Our_Lost_Allies_In_Europe
+		#icon = GFX_
+		prerequisite = { focus = Lodge's_Transoceanic_Plan }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = Lodge's_Transoceanic_Plan
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Convince_Iceland_of_Our_Cause
+		#icon = GFX_
+		prerequisite = { focus = Contact_Our_Lost_Allies_In_Europe }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = Contact_Our_Lost_Allies_In_Europe
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	focus = {
+		id = Build_Up_The_Navy_in_Double
+		#icon = GFX_
+		prerequisite = { focus = Convince_Iceland_of_Our_Cause }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = Convince_Iceland_of_Our_Cause
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Undermine_The_Roma_Pact's_Influence_In_The_Atlantic
+		#icon = GFX_
+		prerequisite = { focus = Build_Up_The_Navy_in_Double }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = Build_Up_The_Navy_in_Double
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	
+	focus = {
+		id = Trying_to_Close_Pandora's_Box
+		#icon = GFX_
+		prerequisite = { focus = Undermine_The_Roma_Pact's_Influence_In_The_Atlantic }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = Undermine_The_Roma_Pact's_Influence_In_The_Atlantic
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	focus = {
+		id = More_Nostrum
+		#icon = GFX_
+		prerequisite = { focus = Lodge's_Transoceanic_Plan }
+		mutually_exclusive = { focus =  }
+		x = 4
+		y = 1
+		relative_position_id = Lodge's_Transoceanic_Plan
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	
+	focus = {
+		id = Further_Isolate_The_PRC
+		#icon = GFX_
+		prerequisite = { focus = More_Nostrum }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = More_Nostrum
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Strengthen_ROC
+		#icon = GFX_
+		prerequisite = { focus = Further_Isolate_The_PRC }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = Further_Isolate_The_PRC
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Check_Up_Korea's_Border
+		#icon = GFX_
+		prerequisite = { focus = Strengthen_ROC }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = Strengthen_ROC
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	
+	focus = {
+		id = The_Tiger_Is_Caged
+		#icon = GFX_
+		prerequisite = { focus = Check_Up_Korea's_Border }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = Check_Up_Korea's_Border
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Fund_Rebels_In_Britain's_Holdings
+		#icon = GFX_
+		prerequisite = { focus = More_Nostrum}
+		mutually_exclusive = { focus =  }
+		x = 3
+		y = 1
+		relative_position_id = More_Nostrum
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	focus = {
+		id = A_Meeting_In_Tokyo
+		#icon = GFX_
+		prerequisite = { focus = Fund_Rebels_In_Britain's_Holdings }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = Fund_Rebels_In_Britain's_Holdings
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Prepare_The_Withdrawl
+		#icon = GFX_
+		prerequisite = { focus = A_Meeting_In_Tokyo }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = A_Meeting_In_Tokyo
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Finishing_What_Willkie_Has_Started
+		#icon = GFX_
+		prerequisite = { focus = Prepare_The_Withdrawl }
+		mutually_exclusive = { focus =  }
+		x = 0
+		y = 1
+		relative_position_id = Prepare_The_Withdrawl
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	
+	focus = {
+		id = Phase_1_Completed
+		#icon = GFX_
+		prerequisite = { focus = Finishing_What_Willkie_Has_Started }
+		prerequisite = { focus = The_Tiger_Is_Caged }
+		mutually_exclusive = { focus =  }
+		x = -5
+		y = 1
+		relative_position_id = Finishing_What_Willkie_Has_Started
+
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+
+		}
+	}
+	
+	
+	
+	
+}
