@@ -1530,6 +1530,8 @@ focus = {
 		#icon = GFX_
 		prerequisite = { focus = Finishing_What_Willkie_Has_Started }
 		prerequisite = { focus = The_Tiger_Is_Caged }
+		prerequisite = { focus = Trying_to_Close_Pandora's_Box }
+		prerequisite = { focus = The_American_Backyard_Secured }
 		mutually_exclusive = { focus =  }
 		x = -5
 		y = 1
