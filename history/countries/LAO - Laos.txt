@@ -98,26 +98,15 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = authoritarian_dem
+	ruling_party = despotism
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	communism = 35
-	authoritarian_dem = 40
-}
-
-create_country_leader = {
-	name = "Souphanouvong"
-	desc = ""
-	picture = GFX_portrait_Souphanouvong
-	expire = "1953.3.1"
-	ideology = marxism
-	traits = {
-		
-	}
+	libertarian_socialism = 25
+	authoritarian_dem = 35
+	despotism = 40
 }
 
 create_country_leader = {
@@ -125,18 +114,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Sisavang_Vong
 	expire = "1953.3.1"
-	ideology = despotism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Kou Voragong" 
-	desc = ""
-	picture = GFX_portrait_Kou_Voragong
-	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = absolute_monarchy
 	traits = {
 		
 	}

@@ -90,57 +90,27 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 35
-	fascism = 15
-	authoritarian_socialism = 15
-	neutrality = 35
+	liberal_democracy = 25
+	anarchism = 15
+	libertarian_socialism = 15
+	authoritarian_socialism = 35
+	authoritarian_dem = 10
 }
 
 #NOTICE# please watch out for spelling, im using Vietnamese names as they spell them, game might not support these characters!
 
-create_country_leader = {
-	name = "Phan Bôi Châu" 
-	desc = ""
-	picture = GFX_portrait_Phan_Boi_Chau
-	expire = "1953.3.1"
-	ideology = fascism_ideology 
-	traits = {
-		
-	}
-}
 
 create_country_leader = {
 	name = "Ho Chí Minh" 
 	desc = ""
-	picture = GFX_portrait_Ho_Chi_Minh
-	expire = "1953.3.1"
-	ideology = marxism
+	picture = "UA_portrait_Ho_Chi_Minh.dds"
+	expire = "1963.3.1"
+	ideology = marxism_leninism
 	traits = {
 		
 	}
 }
 
-create_country_leader = {
-	name = "Ngô Đình Diêm"
-	desc = ""
-	picture = GFX_portrait_Ngo_Đinh_Diem
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Nguyen Tuong Tam"
-	desc = ""
-	picture = GFX_portrait_Nguyen_Tuong_Tam
-	expire = "1953.3.1"
-	ideology = moderatism
-	traits = {
-		
-	}
-}
 
 
 
