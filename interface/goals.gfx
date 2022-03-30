@@ -2,7 +2,6 @@ spriteTypes = {
 
 	#### Generic continuous goal icons
 
-
 	SpriteType = {
 	name = "GFX_about_the_german"
 	texturefile = "gfx/interface/goals/about_the_german.dds"			
@@ -14,8 +13,8 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-	name = "GFX_allies"
-	texturefile = "gfx/interface/goals/allies.dds"			
+	name = "GFX_matter_of_colonies"
+	texturefile = "gfx/interface/goals/colonies.dds"			
 	}
 
 	SpriteType = {
@@ -54,7 +53,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-	name = "GFX_The_matters_of_colonies"
+	name = "GFX_colonies"
 	texturefile = "gfx/interface/goals/The_matters_of_colonies.dds"			
 	}
 
