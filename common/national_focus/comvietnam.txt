@@ -1,0 +1,2040 @@
+﻿focus_tree = {
+	id = vietnam_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VIN
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 2100 }
+	
+	#################################
+	####Military Vietnam War Path####
+	#################################
+
+	focus = {
+		id = In_The_Iron_Cage
+		icon = GFX_
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 30
+		y = 0
+		relative_position_id = 
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Anti_American_Sentiment
+		icon = GFX_
+		prerequisite = { focus = In_The_Iron_Cage }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 3
+		y = 1
+		relative_position_id = In_The_Iron_Cage
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Sanction_America
+		icon = GFX_
+		prerequisite = { focus = Anti_American_Sentiment }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = Anti_American_Sentiment
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Prepare_For_Forgein_Intervention
+		icon = GFX_
+		prerequisite = { focus = In_The_Iron_Cage }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = -3
+		y = 1
+		relative_position_id = In_The_Iron_Cage
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Close_Vietnamese_Ports
+		icon = GFX_
+		prerequisite = { focus = Prepare_For_Forgein_Intervention }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = Prepare_For_Forgein_Intervention
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Through_Long_Slow_Months
+		icon = GFX_
+		prerequisite = { focus = In_The_Iron_Cage }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = In_The_Iron_Cage
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = Dare_To_Mock_The_Jungle’s_Majesty
+		icon = GFX_
+		prerequisite = { focus = Through_Long_Slow_Months }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = Through_Long_Slow_Months
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = An_Equal_To_The_Despicable_Bears
+		icon = GFX_
+		prerequisite = { focus = Dare_To_Mock_The_Jungle’s_Majesty }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = Dare_To_Mock_The_Jungle’s_Majesty
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	
+	focus = {
+		id = For_Good_Old_Days_of_Mighty_Dominion
+		icon = GFX_
+		prerequisite = { focus = An_Equal_To_The_Despicable_Bears }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = An_Equal_To_The_Despicable_Bears
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	
+	focus = {
+		id = In_The_Jungle
+		icon = GFX_
+		prerequisite = { focus = For_Good_Old_Days_of_Mighty_Dominion }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = For_Good_Old_Days_of_Mighty_Dominion
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+
+	
+	
+	focus = {
+		id = A_Letter_To_Laos
+		icon = GFX_
+		prerequisite = { focus = In_The_Iron_Cage }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 6
+		y = 1
+		relative_position_id = In_The_Iron_Cage
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+	
+	focus = {
+		id = The_Traitors_To_The_West
+		icon = GFX_
+		prerequisite = { focus = A_Letter_To_Laos }
+		mutually_exclusive = { focus = Our_Friends_To_The_West }
+		cost = 10
+		x = 1
+		y = 1
+		relative_position_id = A_Letter_To_Laos
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Arm_The_Western_Peasants
+		icon = GFX_
+		prerequisite = { focus = The_Traitors_To_The_West }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = The_Traitors_To_The_West
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = The_War_Marches_West
+		icon = GFX_
+		prerequisite = { focus = Arm_The_Western_Peasants }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = Arm_The_Western_Peasants
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = The_Union_Of_Indochina
+		icon = GFX_
+		prerequisite = { focus = The_War_Marches_West }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = The_War_Marches_West
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Our_Friends_To_The_West
+		icon = GFX_
+		prerequisite = { focus = A_Letter_To_Laos }
+		mutually_exclusive = { focus = The_Traitors_To_The_West }
+		cost = 10
+		x = -1
+		y = 1
+		relative_position_id = A_Letter_To_Laos
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = Send_Refugees_Across_The_Border
+		icon = GFX_
+		prerequisite = { focus = Our_Friends_To_The_West }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = Our_Friends_To_The_West
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = The_Common_Enenmy
+		icon = GFX_
+		prerequisite = { focus = Send_Refugees_Across_The_Border }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = Send_Refugees_Across_The_Border
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = Mobilize_The_Armies_Of_Laos
+		icon = GFX_
+		prerequisite = { focus = The_Common_Enenmy }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = The_Common_Enenmy
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+	
+	focus = {
+		id = A_Letter_To_The_PRC
+		icon = GFX_
+		prerequisite = { focus = In_The_Iron_Cage }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = -6
+		y = 1
+		relative_position_id = In_The_Iron_Cage
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+
+
+	focus = {
+		id = The_Loyal_North
+		icon = GFX_
+		prerequisite = { focus = A_Letter_To_The_PRC }
+		mutually_exclusive = { focus = The_False_Vanguard }
+		cost = 10
+		x = -1
+		y = 1
+		relative_position_id = A_Letter_To_The_PRC
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = Chinese_Guns_And_Chinese_Men
+		icon = GFX_
+		prerequisite = { focus = The_Loyal_North }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = The_Loyal_North
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+	focus = {
+		id = Volunteers_From_Bejing_To_Guangzhou
+		icon = GFX_
+		prerequisite = { focus = Chinese_Guns_And_Chinese_Men }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = Chinese_Guns_And_Chinese_Men
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = One_Vanguard_Two_States
+		icon = GFX_
+		prerequisite = { focus = Volunteers_From_Bejing_To_Guangzhou }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = Volunteers_From_Bejing_To_Guangzhou
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+	
+	focus = {
+		id = The_False_Vanguard
+		icon = GFX_
+		prerequisite = { focus = A_Letter_To_The_PRC }
+		mutually_exclusive = { focus = The_Loyal_North }
+		cost = 10
+		x = 1
+		y = 1
+		relative_position_id = A_Letter_To_The_PRC
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+	
+	focus = {
+		id = Reject_Chinese_Weapons
+		icon = GFX_
+		prerequisite = { focus = The_False_Vanguard }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = The_False_Vanguard
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+	
+	focus = {
+		id = Socialist_Isolationism
+		icon = GFX_
+		prerequisite = { focus = Reject_Chinese_Weapons }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = Reject_Chinese_Weapons
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Prepare_For_Chinese_Invasion
+		icon = GFX_
+		prerequisite = { focus = Socialist_Isolationism }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = Socialist_Isolationism
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+
+	
+	focus = {
+		id = O_My_Dear_My_Jungle_Domain?
+		icon = GFX_
+		prerequisite = { focus = In_The_Jungle }
+		prerequisite = { focus = One_Vanguard_Two_States focus = Prepare_For_Chinese_Invasion }
+		prerequisite = { focus = Mobilize_The_Armies_Of_Laos focus = The_Union_Of_Indochina }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = In_The_Jungle
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	####################
+	####Pre War Path####
+	####################
+
+
+
+
+	focus = {
+		id = Undo_What_Has_Been_Done
+		icon = GFX_
+		prerequisite = { focus = }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 3
+		y = 0
+		relative_position_id = 
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Review_Our_Policy
+		icon = GFX_
+		prerequisite = { focus = Undo_What_Has_Been_Done }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = Undo_What_Has_Been_Done
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = Control_The_Anarchy_Farmers
+		icon = GFX_
+		prerequisite = { focus = Review_Our_Policy }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = Review_Our_Policy
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Confiscate_The_Papers
+		icon = GFX_
+		prerequisite = { focus = Control_The_Anarchy_Farmers }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 2
+		y = 1
+		relative_position_id = Control_The_Anarchy_Farmers
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Shift_The_Blame
+		icon = GFX_
+		prerequisite = { focus = Control_The_Anarchy_Farmers }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = -2
+		y = 1
+		relative_position_id = Control_The_Anarchy_Farmers
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Everything_Under_Control
+		icon = GFX_
+		prerequisite = { focus = Shift_The_Blame }
+		prerequisite = { focus = Confiscate_The_Papers }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = -2
+		y = 1
+		relative_position_id = Confiscate_The_Papers
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+
+	focus = {
+		id = Vietnam_United_And_Strong
+		icon = GFX_
+		prerequisite = { focus = Everything_Under_Control }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = Everything_Under_Control
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	
+	focus = {
+		id = Under_The_Banner_Of_Ho_Chi_Mihn
+		icon = GFX_
+		prerequisite = { focus = Vietnam_United_And_Strong }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 5
+		y = 1
+		relative_position_id = Vietnam_United_And_Strong
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	focus = {
+		id = And_His_Comrade_Pham_Van_Dong
+		icon = GFX_
+		prerequisite = { focus = Under_The_Banner_Of_Ho_Chi_Mihn }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = Under_The_Banner_Of_Ho_Chi_Mihn
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Boost_Our_People_With_Joy
+		icon = GFX_
+		prerequisite = { focus = And_His_Comrade_Pham_Van_Dong }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 3
+		y = 1
+		relative_position_id = And_His_Comrade_Pham_Van_Dong
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = The_Farms_Are_Great
+		icon = GFX_
+		prerequisite = { focus = Boost_Our_People_With_Joy }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = -2
+		y = 1
+		relative_position_id = Boost_Our_People_With_Joy
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = The_People_Are_Full
+		icon = GFX_
+		prerequisite = { focus = Boost_Our_People_With_Joy }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 2
+		y = 1
+		relative_position_id = Boost_Our_People_With_Joy
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = The_Factories_Are_Rolling
+		icon = GFX_
+		prerequisite = { focus = The_Farms_Are_Great }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = The_Farms_Are_Great
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = The_Workers_Are_Happy
+		icon = GFX_
+		prerequisite = { focus = The_People_Are_Full }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = The_People_Are_Full
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = End_Of_The_Tape
+		icon = GFX_
+		prerequisite = { focus = The_Workers_Are_Happy }
+		prerequisite = { focus = The_Factories_Are_Rolling }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = -2
+		y = 1
+		relative_position_id = The_Workers_Are_Happy
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = Consolidate_Our_Comrade_Power
+		icon = GFX_
+		prerequisite = { focus = And_His_Comrade_Pham_Van_Dong }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = -3
+		y = 1
+		relative_position_id = And_His_Comrade_Pham_Van_Dong
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	focus = {
+		id = Eliminate_Oppositions
+		icon = GFX_
+		prerequisite = { focus = Consolidate_Our_Comrade_Power }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = Consolidate_Our_Comrade_Power
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	focus = {
+		id = Seek_Approval_From_Factions
+		icon = GFX_
+		prerequisite = { focus = Eliminate_Oppositions }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = Eliminate_Oppositions
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	focus = {
+		id = The_Real_Chairmen_Pham_Van_Dong
+		icon = GFX_
+		prerequisite = { focus = Seek_Approval_From_Factions }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = Seek_Approval_From_Factions
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	focus = {
+		id = Servant_Of_The_People
+		icon = GFX_
+		prerequisite = { focus = The_Real_Chairmen_Pham_Van_Dong }
+		prerequisite = { focus = End_Of_The_Tape }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 3
+		y = 1
+		relative_position_id = The_Real_Chairmen_Pham_Van_Dong
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = QDNDVN_Army_Of_The_People
+		icon = GFX_
+		prerequisite = { focus = Vietnam_United_And_Strong }
+		mutually_exclusive = { focus =  }
+		cost = 5
+		x = -5
+		y = 1
+		relative_position_id = Vietnam_United_And_Strong
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	focus = {
+		id = Son_Of_The_Mother_Earth
+		icon = GFX_
+		prerequisite = { focus = QDNDVN_Army_Of_The_People }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = -3
+		y = 1
+		relative_position_id = QDNDVN_Army_Of_The_People
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = In_Legacy_Of_The_Father_Ocean
+		icon = GFX_
+		prerequisite = { focus = QDNDVN_Army_Of_The_People }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 0
+		y = 1
+		relative_position_id = QDNDVN_Army_Of_The_People
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	focus = {
+		id = The_Favorite_Grandchild_Of_God
+		icon = GFX_
+		prerequisite = { focus = QDNDVN_Army_Of_The_People }
+		mutually_exclusive = { focus =  }
+		cost = 10
+		x = 3
+		y = 1
+		relative_position_id = QDNDVN_Army_Of_The_People
+
+		
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+
+}
