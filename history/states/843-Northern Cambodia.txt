@@ -1,0 +1,23 @@
+state={
+	id=843
+	name="STATE_843"
+	
+	history={
+		add_core_of = CAM
+		owner = CAM
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	
+	provinces={
+		1324 4302 4639 12447 12460 12475 
+	}
+	manpower=95672
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

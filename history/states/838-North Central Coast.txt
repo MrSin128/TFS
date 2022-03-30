@@ -1,0 +1,25 @@
+state={
+	id=838
+	name="STATE_838"
+
+	
+	history={
+		add_core_of = VIN
+		owner = VIN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+
+		}
+
+	}
+	
+	provinces={
+		1302 4379 7229 7280 10137 10309 12297 
+	}
+	manpower=256136
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
